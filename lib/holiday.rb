@@ -43,7 +43,8 @@ holiday_hash<< {:columbus_day_supplies => ["Flags", "Parade Floats", "Italian Fo
 holiday_supplies[:fall][:columbus_day][;columbus_day_supplies]
 end
 valentines_day_supplies = ["Cupid Cut-Out", "Candy Hearts"]
-
+holiday_supplies[:winter] [:valentines_day] [:valentines_day_supplies]
+end
   # remember to return the updated hash
 
 end
