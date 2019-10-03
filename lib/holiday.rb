@@ -38,17 +38,19 @@ holiday_hash[:spring][:memorial_day]
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
-  # code here
+holiday_hash[:spring][memorial_day]<<"table_cloth"
   # remember to return the updated hash
 
 end
 
 def all_winter_holiday_supplies(holiday_hash)
+  holiday_hash[supply]
   # return an array of all of the supplies that are used in the winter season
 
 end
 
 def all_supplies_in_holidays(holiday_hash)
+  holiday_supplies[]
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
   #   Christmas: Lights, Wreath
